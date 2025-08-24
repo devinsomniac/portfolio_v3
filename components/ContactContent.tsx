@@ -37,7 +37,7 @@ const ContactContent = () => {
                     </a>
                 <a href="https://www.linkedin.com/in/inzamam-chowdhury/" target='_blank'>
                      <div className='border border-gray-400 rounded-xl flex justify-start items-center p-2 gap-2 hover:scale-105 duration-200'>
-                        <RiLinkedinBoxFill className='text-white text-xl' />
+                        <RiLinkedinBoxFill className='text-white text-xl'/>
                         <div className='flex flex-col'>
                             <h1 className='font-bold text-gray-300' >LinkedIn</h1>
                             <p className='text-gray-400'>in/inzamam-chowdhury/</p>
