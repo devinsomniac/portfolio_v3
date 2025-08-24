@@ -14,7 +14,8 @@ const ContactContent = () => {
             </div>
             <div className='mt-4'>
                 <h1 className='text-xs text-gray-400 mb-2'>Connect with me through any of these platforms.</h1>
-                <div className='grid md:grid-cols-2 gap-4'>
+                <div className='grid md:grid-cols-2 gap-4 w-[100px] md:w-full'>
+                    <a href="mailto:inzamamchowdhury20@gmail.com" target='_blank'>
                     <div className='border border-gray-400 rounded-xl flex justify-start items-center p-2 gap-2 hover:scale-105 duration-200'>
                         <MdMarkEmailUnread className='text-white text-xl' />
                         <div className='flex flex-col'>
@@ -23,6 +24,8 @@ const ContactContent = () => {
                         </div>
 
                     </div>
+                    </a>
+                    <a href="https://www.instagram.com/stories/responsible_mess_/" target='_blank'>
                      <div className='border border-gray-400 rounded-xl flex justify-start items-center p-2 gap-2 hover:scale-105 duration-200'>
                         <AiFillInstagram className='text-white text-xl' />
                         <div className='flex flex-col'>
@@ -31,6 +34,8 @@ const ContactContent = () => {
                         </div>
 
                     </div>
+                    </a>
+                <a href="https://www.linkedin.com/in/inzamam-chowdhury/" target='_blank'>
                      <div className='border border-gray-400 rounded-xl flex justify-start items-center p-2 gap-2 hover:scale-105 duration-200'>
                         <RiLinkedinBoxFill className='text-white text-xl' />
                         <div className='flex flex-col'>
@@ -39,6 +44,8 @@ const ContactContent = () => {
                         </div>
 
                     </div>
+                    </a>
+                    <a href="https://wa.me/916909442143" target='_blank'>
                      <div className='border border-gray-400 rounded-xl flex justify-start items-center p-2 gap-2 hover:scale-105 duration-200'>
                         <FaWhatsappSquare  className='text-white text-xl' />
                         <div className='flex flex-col'>
@@ -47,6 +54,7 @@ const ContactContent = () => {
                         </div>
 
                     </div>
+                    </a>
                 </div>
             </div>
             <div className="text-white mt-4">

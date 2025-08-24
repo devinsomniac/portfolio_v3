@@ -29,7 +29,7 @@ const AboutContent = () => {
                     <div className="ml-4">
                         <div className="flex items-center mb-6 ">
                             <div className="w-4 h-4 bg-blue-500 rounded-full absolute -left-3"></div>
-                            <div className="flex items-center gap-2 ml-6 hover:scale-110 hover:transition-transform duration-300">
+                            <div className="grid grid-cols-1 md:flex items-center gap-2 ml-6 hover:scale-110 hover:transition-transform duration-300">
                                 <div>
                                     <Image src={"/cardiff_logo.jpg"} alt='cardiff Logo' width={50} height={50} />
                                 </div>
@@ -42,7 +42,7 @@ const AboutContent = () => {
                         </div>
                         <div className="flex items-center mb-6">
                             <div className="w-4 h-4 bg-yellow-500 rounded-full absolute -left-3"></div>
-                            <div className="flex items-center gap-2 ml-6 hover:scale-110 hover:transition-transform duration-300">
+                            <div className="grid grid-cols-1 md:flex items-center gap-2 ml-6 hover:scale-110 hover:transition-transform duration-300">
                                 <div>
                                     <Image src={"/nit_logo.png"} alt='nit logo' width={50} height={50} />
                                 </div>
@@ -59,7 +59,7 @@ const AboutContent = () => {
                         </div>
                         <div className="flex items-center mb-6">
                             <div className="w-4 h-4 bg-green-500 rounded-full absolute -left-3"></div>
-                            <div className="flex items-center gap-2 ml-6 hover:scale-110 hover:transition-transform duration-300">
+                            <div className="grid grid-cols-1 md:flex items-center gap-2 ml-6 hover:scale-110 hover:transition-transform duration-300">
                                 <div>
                                     <Image src={"/nit_logo.png"} alt='nit logo' width={50} height={50} />
                                 </div>
