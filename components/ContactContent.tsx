@@ -45,12 +45,12 @@ const ContactContent = () => {
 
                     </div>
                     </a>
-                    <a href="https://wa.me/916909442143" target='_blank'>
+                    <a href="https://wa.me/447448078857" target='_blank'>
                      <div className='border border-gray-400 rounded-xl flex justify-start items-center p-2 gap-2 hover:scale-105 duration-200'>
                         <FaWhatsappSquare  className='text-white text-xl' />
                         <div className='flex flex-col'>
                             <h1 className='font-bold text-gray-300' >Whatsapp</h1>
-                            <p className='text-gray-400'>+916909442143</p>
+                            <p className='text-gray-400'>+44 7448 078857</p>
                         </div>
 
                     </div>
