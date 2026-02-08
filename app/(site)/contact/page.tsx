@@ -1,5 +1,6 @@
 "use client";
-
+import { motion } from "framer-motion"
+import { containerVariants, itemVariants } from "@/lib/motion"
 import React, { useState } from "react";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { AiFillInstagram } from "react-icons/ai";
@@ -27,13 +28,13 @@ const Page = () => {
     };
     const [resumeOpen, setResumeOpen] = useState(false)
     return (
-        <div className="w-full">
-            <div className="text-[#c76419]">
+        <motion.div className="w-full" variants={containerVariants} initial="hidden" animate="show">
+            <motion.div className="text-[#c76419]" variants={itemVariants}>
                 <h1 className="font-semibold text-2xl md:text-4xl">Contact</h1>
                 <p className="text-white/70">Let&apos;s connect.</p>
-            </div>
+            </motion.div>
 
-            <div className="mt-5">
+            <motion.div className="mt-5" variants={itemVariants}>
                 <h1 className="text-xs text-gray-400 mb-3">
                     Connect with me through any of these platforms.
                 </h1>
@@ -89,9 +90,9 @@ const Page = () => {
                         </div>
                     </a>
                 </div>
-            </div>
+            </motion.div>
 
-            <div className="text-white mt-10">
+            <motion.div className="text-white mt-10" variants={itemVariants}>
                 <h1 className="font-semibold text-2xl md:text-4xl text-[#c76419]">
                     Opportunities
                 </h1>
@@ -120,8 +121,8 @@ const Page = () => {
                         Email Me
                     </a>
                 </div>
-            </div>
-        </div>
+            </motion.div>
+        </motion.div>
     );
 };
 

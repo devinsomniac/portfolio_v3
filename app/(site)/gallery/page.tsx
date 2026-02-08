@@ -1,3 +1,6 @@
+"use client"
+import { motion } from "framer-motion"
+import { containerVariants, itemVariants } from "@/lib/motion"
 import Image from "next/image"
 
 const photos = [
@@ -15,7 +18,7 @@ const photos = [
 
 export default function Page() {
   return (
-    <div className="min-h-screen w-full bg-[#0f0f0f] px-4 py-10">
+    <motion.div className="min-h-screen w-full bg-[#0f0f0f] px-4 py-10" variants={containerVariants} initial="hidden" animate="show">
       <div className="mx-auto w-full max-w-6xl">
         <div className="mb-6 flex items-end justify-between gap-4">
           <div>
@@ -33,7 +36,7 @@ export default function Page() {
           </a>
         </div>
 
-        <div className="columns-1 sm:columns-2 lg:columns-3 gap-4">
+        <motion.div className="columns-1 sm:columns-2 lg:columns-3 gap-4" variants={itemVariants}>
           {photos.map((src, i) => (
             <div
               key={src}
@@ -48,8 +51,8 @@ export default function Page() {
               />
             </div>
           ))}
-        </div>
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
   )
 }
