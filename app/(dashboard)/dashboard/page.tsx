@@ -7,7 +7,7 @@ import Gallery from './Gallery'
 const page = () => {
   return (
     <div className='w-full flex justify-center items-center p-8'>
-      <Tabs defaultValue="account" >
+      <Tabs defaultValue="account" className='w-full flex justify-center items-center'>
         <TabsList>
           <TabsTrigger value="details">Details</TabsTrigger>
           <TabsTrigger value="projects">Projects</TabsTrigger>

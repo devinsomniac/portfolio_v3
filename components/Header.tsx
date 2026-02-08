@@ -11,7 +11,7 @@ const Header = () => {
             <a href="/"><House className='text-white' /></a>
         </div>
         <div>
-            <CircleUserRound className='text-white'/>
+            <a href="/about"><CircleUserRound className='text-white'/></a>
         </div>
         <div>
             <ToolCase className='text-white' />
