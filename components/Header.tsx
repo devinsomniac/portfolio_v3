@@ -14,14 +14,11 @@ const Header = () => {
         <div>
             <a href="/about"><CircleUserRound className='text-white'/></a>
         </div>
-        <div>
-            <a href="/resume"><FileCode className='text-white' /></a>
-        </div>
          <div>
-            <a href="/gallery"></a><Aperture className='text-white'/>
+            <a href="/gallery"><Aperture className='text-white'/></a>
         </div>
         <div>
-            <a href="/contact"></a><Send className='text-white'/>
+            <a href="/contact"><Send className='text-white'/></a>
         </div>
     </div>
   )

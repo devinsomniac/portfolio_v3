@@ -21,7 +21,7 @@ const Footer = () => {
                 </ul>
             </div>
             <p className="text-center text-white text-xs">
-                © 2025 Inzamam Ul Haque Chowdhury. All rights reserved.
+                © 2026 Inzamam Ul Haque Chowdhury. All rights reserved.
             </p>
         </footer>
     )
