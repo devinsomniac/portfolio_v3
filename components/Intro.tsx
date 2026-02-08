@@ -40,7 +40,7 @@ const FlipCard = ({
   title,
   subtitle,
   meta,
-  border = "border-white border-8",
+  border = "border-white border-6",
 }: {
   src: string
   alt: string
@@ -134,7 +134,7 @@ const Intro = () => {
         <FlipCard
           src="/about_pic_1.png"
           alt="About pic 1"
-          wClass="w-[200px] md:w-[320px]"
+          wClass="w-[180px] md:w-[320px]"
           rotateClass="-rotate-12"
           mlClass="md:ml-[100px]"
           subtitle="Winter 2023"
@@ -145,7 +145,7 @@ const Intro = () => {
         <FlipCard
           src="/about_pic_4.png"
           alt="About pic 4"
-          wClass="w-[200px] md:w-[320px]"
+          wClass="w-[180px] md:w-[320px]"
           rotateClass="rotate-12"
           mlClass="md:ml-10"
           subtitle="Winter 2025"
@@ -156,7 +156,7 @@ const Intro = () => {
         <FlipCard
           src="/about_pic_2.png"
           alt="About pic 2"
-          wClass="w-[200px] md:w-[290px]"
+          wClass="w-[150px] md:w-[250px]"
           rotateClass="rotate-12"
           mlClass="md:ml-[100px]"
           subtitle="Winter 2022"
@@ -167,7 +167,7 @@ const Intro = () => {
         <FlipCard
           src="/about_pic_3.png"
           alt="About pic 3"
-          wClass="w-[200px] md:w-[290px]"
+          wClass="w-[150px] md:w-[250px]"
           rotateClass="-rotate-12"
           mlClass="md:ml-12"
           subtitle="2026"
