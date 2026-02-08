@@ -1,7 +1,7 @@
 "use client"
 import { motion } from "framer-motion"
 import { containerVariants, itemVariants } from "@/lib/motion"
-import Image from "next/Image"
+import Image from "next/image"
 
 const photos = [
   "/gallery/img1.jpeg",
