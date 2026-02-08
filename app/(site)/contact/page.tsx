@@ -7,7 +7,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { RiLinkedinBoxFill } from "react-icons/ri";
 import { FaWhatsappSquare } from "react-icons/fa";
 import ResumeModal from "@/components/ResumeModal";
-
+import { FaGithub } from 'react-icons/fa';
 const Page = () => {
     const [copied, setCopied] = useState(false);
 
@@ -17,7 +17,7 @@ const Page = () => {
     const whatsappLink = "https://wa.me/447448078857";
     const linkedinLink = "https://www.linkedin.com/in/inzamam-chowdhury/";
     const instagramLink = "https://www.instagram.com/responsible_mess_/";
-    const calendlyLink = "";
+    const github = "https://github.com/devinsomniac";
 
     const copyEmail = async () => {
         try {
@@ -29,7 +29,7 @@ const Page = () => {
     const [resumeOpen, setResumeOpen] = useState(false)
     return (
         <motion.div className="w-full" variants={containerVariants} initial="hidden" animate="show">
-            <motion.div className="text-[#c76419]" variants={itemVariants}>
+            <motion.div className="text-[#c76419] mt-10" variants={itemVariants}>
                 <h1 className="font-semibold text-2xl md:text-4xl">Contact</h1>
                 <p className="text-white/70">Let&apos;s connect.</p>
             </motion.div>
@@ -86,6 +86,15 @@ const Page = () => {
                             <div className="flex flex-col min-w-0">
                                 <h1 className="font-bold text-gray-200 md:text-lg">WhatsApp</h1>
                                 <p className="text-gray-400 truncate">{whatsapp}</p>
+                            </div>
+                        </div>
+                    </a>
+                     <a href={github} className="group block" target="_blank" rel="noreferrer">
+                        <div className="border border-white/15 bg-white/5 rounded-2xl flex items-center p-4 gap-3 transition-all duration-200 ease-out group-hover:-translate-y-1 group-hover:-translate-x-1 group-hover:bg-white/10">
+                            <FaGithub className="text-white text-2xl shrink-0" />
+                            <div className="flex flex-col min-w-0">
+                                <h1 className="font-bold text-gray-200 md:text-lg">Github</h1>
+                                <p className="text-gray-400 truncate">{github}</p>
                             </div>
                         </div>
                     </a>

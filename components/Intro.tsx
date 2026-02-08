@@ -76,7 +76,7 @@ const FlipCard = ({
           className={`relative overflow-hidden rounded-2xl ${border}`}
           style={{ backfaceVisibility: "hidden" }}
         >
-          <Image src={src} alt={alt} width={900} height={1200} className="h-auto w-full" priority={false} />
+          <Image src={src} alt={alt} width={800} height={1000} className="h-auto w-full" priority={false} />
         </div>
 
         <div
@@ -128,7 +128,7 @@ const Intro = () => {
       </motion.div>
 
       <motion.div
-        className="grid grid-cols-2 md:grid-cols-2 mt-6 place-items-center gap-y-6"
+        className="grid grid-cols-2 md:grid-cols-2 mt-6 place-items-center gap-y-6 mr-2 md:mr-16"
         variants={Item}
       >
         <FlipCard
