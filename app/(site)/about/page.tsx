@@ -1,6 +1,7 @@
 import Education from '@/components/Education'
 import Projects from '@/components/Projects'
 import Research from '@/components/Research'
+import Tech from '@/components/Tech'
 import React from 'react'
 
 const page = () => {
@@ -20,6 +21,10 @@ const page = () => {
                 <div className='mt-8'>
                     <h1 className="font-semibold text-2xl md:text-4xl">Research & Coursework</h1>
                     <Research />
+                </div>
+                <div className='mt-8'>
+                    <h1 className="font-semibold text-2xl md:text-4xl">Tech Stack</h1>
+                    <Tech />
                 </div>
             </div>
         </div>

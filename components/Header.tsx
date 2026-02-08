@@ -14,7 +14,7 @@ const Header = () => {
             <a href="/about"><CircleUserRound className='text-white'/></a>
         </div>
         <div>
-            <ToolCase className='text-white' />
+            <a href="/tech"><ToolCase className='text-white' /></a>
         </div>
         <div>
             <Send className='text-white'/>
