@@ -147,25 +147,13 @@ To learn more about the technologies used:
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [shadcn/ui Documentation](https://ui.shadcn.com)
 
-## 🤝 Contributing
 
-While this is a personal portfolio, suggestions and feedback are welcome! Feel free to:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
 **Inzamam Ul Haque Chowdhury**
 
-- Portfolio: [portfolio-v3-sand-delta.vercel.app](https://portfolio-v3-sand-delta.vercel.app)
+- Portfolio: [portfolio-v3-sand-delta.vercel.app](https://portfolio-v3-sand-delta.vercel.app) || [https://www.inzamam.cloud/](https://www.inzamam.cloud/)
 - GitHub: [@devinsomniac](https://github.com/devinsomniac)
 
 ## 🙏 Acknowledgments
