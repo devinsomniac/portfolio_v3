@@ -11,7 +11,7 @@ const Education = () => {
                                     <div className="w-4 h-4 bg-blue-500 rounded-full absolute -left-3"></div>
                                     <div className="grid grid-cols-1 md:flex items-center gap-2 ml-6 hover:scale-110 hover:transition-transform duration-300">
                                         <div>
-                                            <Image src={"/cardiff_logo.jpg"} alt='cardiff Logo' width={70} height={50} />
+                                            <Image src={"/cardiff_logo.jpg"} alt='cardiff Logo' width={70} height={50} className='rounded-lg'/>
                                         </div>
                                         <div>
                                             <h3 className="text-white font-medium text-2xl">Cardiff University</h3>
@@ -24,7 +24,7 @@ const Education = () => {
                                     <div className="w-4 h-4 bg-green-500 rounded-full absolute -left-3"></div>
                                     <div className="grid grid-cols-1 md:flex items-center gap-2 ml-6 hover:scale-110 hover:transition-transform duration-300">
                                         <div>
-                                            <Image src={"/nit_logo.png"} alt='nit logo' width={70} height={50} />
+                                            <Image src={"/nit_logo.png"} alt='nit logo' width={70} height={50} className='rounded-lg'/>
                                         </div>
                                         <div>
                                             <h3 className="text-white font-medium text-2xl">National Institute of Technology, Kurukshetra, India</h3>

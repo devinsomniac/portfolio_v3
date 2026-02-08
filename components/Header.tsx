@@ -1,8 +1,9 @@
 import React from 'react'
 import { House } from 'lucide-react';
 import { CircleUserRound } from 'lucide-react';
-import { ToolCase } from 'lucide-react';
+import { Aperture } from 'lucide-react';
 import { Send } from 'lucide-react';
+import { FileCode } from 'lucide-react';
 
 const Header = () => {
   return (
@@ -14,10 +15,13 @@ const Header = () => {
             <a href="/about"><CircleUserRound className='text-white'/></a>
         </div>
         <div>
-            <a href="/tech"><ToolCase className='text-white' /></a>
+            <a href="/resume"><FileCode className='text-white' /></a>
+        </div>
+         <div>
+            <a href="/gallery"></a><Aperture className='text-white'/>
         </div>
         <div>
-            <Send className='text-white'/>
+            <a href="/contact"></a><Send className='text-white'/>
         </div>
     </div>
   )

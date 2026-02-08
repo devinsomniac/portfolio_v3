@@ -65,9 +65,8 @@ const Tech = () => {
       <div className="group flex items-start transition-all duration-200 ease-out hover:-translate-y-1 hover:-translate-x-1">
         <div className="w-3 h-3 rounded-full shrink-0 bg-orange-500 mt-2 transition-transform duration-200 group-hover:scale-110"></div>
         <div className="ml-6 space-y-3">
-          <h3 className="text-white font-medium text-lg">MLOps / Tools</h3>
+          <h3 className="text-white font-medium text-lg">Tools & Platforms</h3>
           <div className="flex flex-wrap gap-2">
-            <div className="px-3 py-1 bg-orange-700 text-white text-xs font-bold rounded-2xl">Docker</div>
             <div className="px-3 py-1 bg-amber-700 text-white text-xs font-bold rounded-2xl">Git</div>
             <div className="px-3 py-1 bg-yellow-700 text-white text-xs font-bold rounded-2xl">Render</div>
             <div className="px-3 py-1 bg-orange-900 text-white text-xs font-bold rounded-2xl">Vercel</div>
