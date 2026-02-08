@@ -6,9 +6,9 @@ import { Send } from 'lucide-react';
 
 const Header = () => {
   return (
-    <div className='bg-[#181818] flex flex-row gap-12 justify-center items-center pt-2 pl-4 pb-2 pr-4 mt-4 rounded-2xl'>
+    <div className='bg-[#181818] flex flex-row gap-12 justify-center items-center pt-2 pl-4 pb-2 pr-4 mt-4 rounded-2xl max-w-[900px]'>
         <div>
-            <House className='text-white' />
+            <a href="/"><House className='text-white' /></a>
         </div>
         <div>
             <CircleUserRound className='text-white'/>
