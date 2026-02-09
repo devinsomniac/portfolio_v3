@@ -2,7 +2,7 @@ import "./globals.css"
 import Header from "@/components/Header"
 import Footer from "@/components/footer"
 import { SpeedInsights } from "@vercel/speed-insights/next"
-
+import { Analytics } from "@vercel/analytics/next"
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
