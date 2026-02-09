@@ -4,8 +4,6 @@ const Research = () => {
     return (
         <div className="mt-10 w-full flex flex-col justify-center items-start gap-6">
 
-            <h2 className="text-2xl font-semibold text-white">Research & Coursework</h2>
-
             {/* Cardiff QA RAG Project */}
             <div className="flex items-start mb-6 hover:scale-105 transition-transform duration-300">
                 <div className="w-3 h-3 bg-indigo-500 rounded-full shrink-0 mt-2"></div>
