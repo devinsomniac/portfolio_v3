@@ -16,7 +16,7 @@ const Page = () => {
     const whatsapp = "+44 7448 078857";
     const whatsappLink = "https://wa.me/447448078857";
     const linkedinLink = "https://www.linkedin.com/in/inzamam-chowdhury/";
-    const instagramLink = "https://www.instagram.com/responsible_mess_/";
+    const instagramLink = "https://www.instagram.com/inzamam_chowdhury_/";
     const github = "https://github.com/devinsomniac";
 
     const copyEmail = async () => {
