@@ -12,7 +12,7 @@ const Page = () => {
     const [copied, setCopied] = useState(false);
 
     const email = "inzamamchowdhury20@gmail.com";
-    const instagram = "responsible_mess_";
+    const instagram = "inzamam_chowdhury_";
     const whatsapp = "+44 7448 078857";
     const whatsappLink = "https://wa.me/447448078857";
     const linkedinLink = "https://www.linkedin.com/in/inzamam-chowdhury/";
