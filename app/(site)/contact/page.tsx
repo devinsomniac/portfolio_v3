@@ -11,7 +11,7 @@ import { FaGithub } from 'react-icons/fa';
 const Page = () => {
     const [copied, setCopied] = useState(false);
 
-    const email = "inzamamchowdhury20@gmail.com";
+    const email = "chowdhury@inzamam.cloud";
     const instagram = "inzamam_chowdhury_";
     const whatsapp = "+44 7448 078857";
     const whatsappLink = "https://wa.me/447448078857";
@@ -124,7 +124,7 @@ const Page = () => {
                     <ResumeModal open={resumeOpen} onClose={() => setResumeOpen(false)} />
 
                     <a
-                        href={`mailto:inzamamchowdhury20@gmail.com?subject=Opportunity`}
+                        href={`mailto:chowdhury@inzamam.cloud?subject=Opportunity`}
                         className="rounded-md border border-white/20 px-5 py-2 text-sm text-white hover:bg-white/10 transition"
                     >
                         Email Me
