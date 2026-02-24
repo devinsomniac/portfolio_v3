@@ -3,6 +3,7 @@ import React, { useState } from "react"
 import { Montserrat } from "next/font/google"
 import Image from "next/image"
 import { motion, type Variants } from "framer-motion"
+import SpotifySection from "./SpotifySection"
 
 const montserratBold = Montserrat({
   weight: "700",
@@ -113,7 +114,7 @@ const FlipCard = ({
 const Intro = () => {
   return (
     <motion.div className="flex flex-col gap-4 h-full justify-center" variants={container} initial="hidden" animate="show">
-      <motion.div className="text-6xl md:text-8xl" variants={Item}>
+      <motion.div className="text-6xl md:text-8xl " variants={Item}>
         <h1 className={`${montserratBold.className} text-[#4A4A4A]`}>HELLO,</h1>
         <h2 className={`${montserratBold.className} text-[#4A4A4A]`}>
           I&apos;AM <span className="text-[#ff6e00]">INZAMAM</span>
@@ -126,7 +127,7 @@ const Intro = () => {
           India, and now diving into a master&apos;s challenge in 🇬🇧 the UK, while striving to become an AI engineer.
         </p>
       </motion.div>
-
+      
       <motion.div
         className="grid grid-cols-2 md:grid-cols-2 mt-6 place-items-center gap-y-6 mr-2 md:mr-16"
         variants={Item}
@@ -174,6 +175,11 @@ const Intro = () => {
           title="Pen Y Fan"
           meta={["Candid", "Hiking", "Personal favorite"]}
         />
+      </motion.div>
+      <motion.div className="text-2xl text-[#969090] mt-5" variants={Item}>
+       <div>
+        <SpotifySection/>
+       </div>
       </motion.div>
     </motion.div>
   )
