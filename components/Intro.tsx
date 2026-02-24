@@ -176,11 +176,11 @@ const Intro = () => {
           meta={["Candid", "Hiking", "Personal favorite"]}
         />
       </motion.div>
-      <motion.div className="text-2xl text-[#969090] mt-5" variants={Item}>
+      {/* <motion.div className="text-2xl text-[#969090] mt-5" variants={Item}>
        <div>
         <SpotifySection/>
        </div>
-      </motion.div>
+      </motion.div> */}
     </motion.div>
   )
 }
