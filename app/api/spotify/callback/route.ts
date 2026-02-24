@@ -12,7 +12,7 @@ export async function GET(req: Request) {
   const clientSecret = process.env.SPOTIFY_CLIENT_SECRET!;
 
   // IMPORTANT: must match what you added in Spotify Dashboard Redirect URI
-  const redirectUri = "https://inzamam.cloud/api/spotify/callback";
+  const redirectUri = "https://www.inzamam.cloud/api/spotify/callback";
 
   const basic = Buffer.from(`${clientId}:${clientSecret}`).toString("base64");
 
