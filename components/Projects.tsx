@@ -60,92 +60,95 @@ const Projects = () => {
                                 </div>
                             </div>
                         </a>
-                         <a href="https://sahina-beaute.vercel.app/" className="group relative block" target="_blank" rel="noopener noreferrer">
+                        <a href="https://sahina-beaute.vercel.app/" className="group relative block" target="_blank" rel="noopener noreferrer">
                             <span className="pointer-events-none absolute -top-8 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-black text-white text-xs px-2 py-1 rounded-md whitespace-nowrap">
                                 https://sahina-beaute.vercel.app/
                             </span>
-                        <div className="group flex items-start mb-6 transition-all duration-200 ease-out hover:-translate-y-1 hover:-translate-x-1">
-                            <div className="w-3 h-3 rounded-full shrink-0 bg-blue-500 mt-2 transition-transform duration-200 group-hover:scale-110"></div>
+                            <div className="group flex items-start mb-6 transition-all duration-200 ease-out hover:-translate-y-1 hover:-translate-x-1">
+                                <div className="w-3 h-3 rounded-full shrink-0 bg-blue-500 mt-2 transition-transform duration-200 group-hover:scale-110"></div>
 
-                            <div className="ml-6 space-y-2">
+                                <div className="ml-6 space-y-2">
 
-                                <div>
-                                    <h3 className="text-white font-medium">
-                                        Sahina Beauté — Full Stack Website for a Beauty Salon (Client Work)
-                                    </h3>
+                                    <div>
+                                        <h3 className="text-white font-medium">
+                                            Sahina Beauté — Full Stack Website for a Beauty Salon (Client Work)
+                                        </h3>
 
-                                    <p className="text-gray-300">
-                                        Designed and developed a production-ready website for a women-only Indian beauty salon
-                                        in Saint-Denis, France. The platform includes a service catalogue, pricing menu,
-                                        appointment booking form, and automated email confirmations using Resend.
-                                        Built with Next.js and deployed on Vercel for fast global delivery.
-                                    </p>
+                                        <p className="text-gray-300">
+                                            Designed and developed a production-ready website for a women-only Indian beauty salon
+                                            in Saint-Denis, France. The platform includes a service catalogue, pricing menu,
+                                            appointment booking form, and automated email confirmations using Resend.
+                                            Built with Next.js and deployed on Vercel for fast global delivery.
+                                        </p>
+                                    </div>
+
+                                    <div className="flex flex-wrap gap-2">
+
+                                        <div className="px-3 py-1 bg-gray-400 text-white text-xs font-bold rounded-2xl">
+                                            Next.js 15
+                                        </div>
+
+                                        <div className="px-3 py-1 bg-blue-700 text-white text-xs font-bold rounded-2xl">
+                                            TypeScript
+                                        </div>
+
+                                        <div className="px-3 py-1 bg-sky-600 text-white text-xs font-bold rounded-2xl">
+                                            Tailwind CSS
+                                        </div>
+
+                                        <div className="px-3 py-1 bg-purple-600 text-white text-xs font-bold rounded-2xl">
+                                            shadcn/ui
+                                        </div>
+
+                                        <div className="px-3 py-1 bg-red-600 text-white text-xs font-bold rounded-2xl">
+                                            Resend Email API
+                                        </div>
+
+                                        <div className="px-3 py-1 bg-emerald-600 text-white text-xs font-bold rounded-2xl">
+                                            Vercel Deployment
+                                        </div>
+
+                                        <div className="px-3 py-1 bg-yellow-600 text-white text-xs font-bold rounded-2xl">
+                                            Responsive Design
+                                        </div>
+
+                                        <div className="px-3 py-1 bg-pink-600 text-white text-xs font-bold rounded-2xl">
+                                            Booking System
+                                        </div>
+
+                                    </div>
+
                                 </div>
-
-                                <div className="flex flex-wrap gap-2">
-
-                                    <div className="px-3 py-1 bg-gray-400 text-white text-xs font-bold rounded-2xl">
-                                        Next.js 15
-                                    </div>
-
-                                    <div className="px-3 py-1 bg-blue-700 text-white text-xs font-bold rounded-2xl">
-                                        TypeScript
-                                    </div>
-
-                                    <div className="px-3 py-1 bg-sky-600 text-white text-xs font-bold rounded-2xl">
-                                        Tailwind CSS
-                                    </div>
-
-                                    <div className="px-3 py-1 bg-purple-600 text-white text-xs font-bold rounded-2xl">
-                                        shadcn/ui
-                                    </div>
-
-                                    <div className="px-3 py-1 bg-red-600 text-white text-xs font-bold rounded-2xl">
-                                        Resend Email API
-                                    </div>
-
-                                    <div className="px-3 py-1 bg-emerald-600 text-white text-xs font-bold rounded-2xl">
-                                        Vercel Deployment
-                                    </div>
-
-                                    <div className="px-3 py-1 bg-yellow-600 text-white text-xs font-bold rounded-2xl">
-                                        Responsive Design
-                                    </div>
-
-                                    <div className="px-3 py-1 bg-pink-600 text-white text-xs font-bold rounded-2xl">
-                                        Booking System
-                                    </div>
-
-                                </div>
-
                             </div>
-                        </div>
                         </a>
-                        <div className="group flex items-start mb-6 transition-all duration-200 ease-out hover:-translate-y-1 hover:-translate-x-1">
-                            <div className="w-3 h-3 rounded-full shrink-0 bg-green-500 mt-2 transition-transform duration-200 group-hover:scale-110"></div>
-                            <div className="ml-6 space-y-2">
-                                <div>
-                                    <h3 className="text-white font-medium">
-                                        Ripple (Ongoing) — Personalized Feed Ranking Engine
-                                    </h3>
-                                    <p className="text-gray-300">
-                                        A ML-powered content ranking and recommendation engine that personalizes user feeds using interaction signals and learning-to-rank models. Designed to simulate real-world social feed ordering with real engagement datasets and evaluation metrics.
-                                    </p>
-                                </div>
-                                <div className="flex flex-wrap gap-2">
-                                    <div className="px-3 py-1 bg-blue-700 text-white text-xs font-bold rounded-2xl">Python</div>
-                                    <div className="px-3 py-1 bg-red-600 text-white text-xs font-bold rounded-2xl">PyTorch</div>
-                                    <div className="px-3 py-1 bg-emerald-600 text-white text-xs font-bold rounded-2xl">DCN v2</div>
-                                    <div className="px-3 py-1 bg-yellow-600 text-white text-xs font-bold rounded-2xl">LightGBM Ranker</div>
-                                    <div className="px-3 py-1 bg-purple-600 text-white text-xs font-bold rounded-2xl">Learning-to-Rank</div>
-                                    <div className="px-3 py-1 bg-indigo-600 text-white text-xs font-bold rounded-2xl">Feature Engineering</div>
-                                    <div className="px-3 py-1 bg-pink-600 text-white text-xs font-bold rounded-2xl">KuaiRec Dataset</div>
-                                    <div className="px-3 py-1 bg-sky-600 text-white text-xs font-bold rounded-2xl">NDCG / MAP</div>
-                                    <div className="px-3 py-1 bg-violet-600 text-white text-xs font-bold rounded-2xl">Next.js</div>
+                        <a href="https://gweldcymru.vercel.app/" className="group relative block" target="_blank" rel="noopener noreferrer">
+                            <span className="pointer-events-none absolute -top-8 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-black text-white text-xs px-2 py-1 rounded-md whitespace-nowrap">
+                                https://gweldcymru.vercel.app/
+                            </span>
+                            <div className="flex items-start mb-6 transition-all duration-200 ease-out hover:-translate-y-1 hover:-translate-x-1">
+                                <div className="w-3 h-3 rounded-full shrink-0 bg-green-500 mt-2 transition-transform duration-200 group-hover:scale-110"></div>
+                                <div className="ml-6 space-y-2">
+                                    <div>
+                                        <h3 className="text-white font-medium">
+                                            GweldCymru — Welsh Neighbourhood Explorer
+                                        </h3>
+                                        <p className="text-gray-300">
+                                            An interactive geospatial web app that consumes live Welsh Government open data to let users explore neighbourhood-level deprivation scores, flood risk zones, and administrative boundaries across Wales. Server-side WFS queries fetch real WIMD data from DataMapWales for any location.
+                                        </p>
+                                    </div>
+                                    <div className="flex flex-wrap gap-2">
+                                        <div className="px-3 py-1 bg-blue-700 text-white text-xs font-bold rounded-2xl">Next.js</div>
+                                        <div className="px-3 py-1 bg-sky-600 text-white text-xs font-bold rounded-2xl">TypeScript</div>
+                                        <div className="px-3 py-1 bg-emerald-600 text-white text-xs font-bold rounded-2xl">Leaflet.js</div>
+                                        <div className="px-3 py-1 bg-yellow-600 text-white text-xs font-bold rounded-2xl">WMS / WFS</div>
+                                        <div className="px-3 py-1 bg-purple-600 text-white text-xs font-bold rounded-2xl">OGC Standards</div>
+                                        <div className="px-3 py-1 bg-red-600 text-white text-xs font-bold rounded-2xl">DataMapWales</div>
+                                        <div className="px-3 py-1 bg-indigo-600 text-white text-xs font-bold rounded-2xl">postcodes.io</div>
+                                        <div className="px-3 py-1 bg-pink-600 text-white text-xs font-bold rounded-2xl">Tailwind CSS</div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                       
+                        </a>
                     </div>
                 </div>
             </div>
