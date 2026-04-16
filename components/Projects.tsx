@@ -35,7 +35,7 @@ const Projects = () => {
                             </div>
                         </a>
 
-                        <a href="https://irfanexpress.vercel.app/" className="group relative block" target="_blank" rel="noopener noreferrer">
+                        {/* <a href="https://irfanexpress.vercel.app/" className="group relative block" target="_blank" rel="noopener noreferrer">
                             <span className="pointer-events-none absolute -top-8 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-black text-white text-xs px-2 py-1 rounded-md whitespace-nowrap">
                                 https://irfanexpress.vercel.app/
                             </span>
@@ -56,6 +56,32 @@ const Projects = () => {
                                         <div className='px-3 py-1 bg-green-500 text-white text-xs font-bold rounded-2xl'>Neon DB</div>
                                         <div className='px-3 py-1 bg-violet-600 text-white text-xs font-bold rounded-2xl'>Tailwind</div>
                                         <div className='px-3 py-1 bg-red-950 text-white text-xs font-bold rounded-2xl'>Gemini API</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a> */}
+                        <a href="https://auto-plaza.vercel.app/" className="group relative block" target="_blank" rel="noopener noreferrer">
+                            <span className="pointer-events-none absolute -top-8 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-black text-white text-xs px-2 py-1 rounded-md whitespace-nowrap">
+                                https://auto-plaza.vercel.app/
+                            </span>
+                            <div className="group flex items-start mb-6 transition-all duration-200 ease-out hover:-translate-y-1 hover:-translate-x-1">
+                                <div className="w-3 h-3 rounded-full shrink-0 bg-green-500 mt-2 transition-transform duration-200 group-hover:scale-110" />
+                                <div className="ml-6 space-y-2">
+                                    <div>
+                                        <h3 className="text-white font-medium">Auto Plaza</h3>
+                                        <p className="text-gray-300">
+                                            Car marketplace platform built with Next.js, enabling users to create and browse listings with secure authentication. Features image uploads, structured listing management, and a responsive interface backed by PostgreSQL (Neon) and Drizzle ORM.
+                                        </p>
+                                    </div>
+                                    <div className='flex flex-wrap gap-2'>
+                                        <div className='px-3 py-1 bg-blue-700 text-white text-xs font-bold rounded-2xl'>Next.js</div>
+                                        <div className='px-3 py-1 bg-sky-400 text-white text-xs font-bold rounded-2xl'>TypeScript</div>
+                                        <div className='px-3 py-1 bg-red-600 text-white text-xs font-bold rounded-2xl'>PostgreSQL</div>
+                                        <div className='px-3 py-1 bg-yellow-500 text-white text-xs font-bold rounded-2xl'>Drizzle ORM</div>
+                                        <div className='px-3 py-1 bg-green-500 text-white text-xs font-bold rounded-2xl'>Neon DB</div>
+                                        <div className='px-3 py-1 bg-indigo-600 text-white text-xs font-bold rounded-2xl'>Clerk Auth</div>
+                                        <div className='px-3 py-1 bg-orange-500 text-white text-xs font-bold rounded-2xl'>Firebase Storage</div>
+                                        <div className='px-3 py-1 bg-violet-600 text-white text-xs font-bold rounded-2xl'>Tailwind</div>
                                     </div>
                                 </div>
                             </div>
